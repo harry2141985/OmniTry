@@ -248,4 +248,4 @@ if __name__ == '__main__':
 
         run_button.click(generate, inputs=[person_image, object_image, object_class, steps, guidance_scale, seed], outputs=[image_out])
     
-    demo.launch()
+    demo.launch(share=True)
